@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android
+    ="http://schemas.android.com/apk/res/android"
+    xmlns:tools
+        ="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="50dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloAplicacion"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginBottom="20dp"/>
+    <Button android:id="@+id/opcion5"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/opcion1"
+        android:onClick="actividad2"
+        />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="FragmentTabhost"
+        android:onClick="FragmentTabhost"
+        />
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/MiSpinner"
+        android:onClick="mispiner"/>
+
+
+    <Button android:id="@+id/button03"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/opcion4"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/dialogo"
+        android:onClick="dialogo"/>
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/recicle"
+        android:onClick="recicle"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/manipulacion"
+        android:onClick="Manipulacion"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/Acercade"
+        android:onClick="AcercaDe"/>
+
+    <Button android:id="@+id/button05"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/Salir"
+        android:onClick="Salir"/>
+</LinearLayout>

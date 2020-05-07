@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sonia Broaster</string>
+    <string name="opcion1">Ir a comprar</string>
+    <string name="opcion2">Ver Productos</string>
+    <string name="opcion3">Pedir delivery</string>
+    <string name="opcion4">Ir a Facebook</string>
+    <string name="Salir">Salir</string>
+    <string name="tituloAplicacion">Sonia Broaster</string>
+    <string name="action_settings">Configuración</string>
+    <string name="title_activity_mi_spinner">MiSpinner</string>
+    <string name="dialogo">Mi dialogo</string>
+    <string name="Acercade">Acerca de </string>
+    <string name="manipulacion">manipulacion</string>
+    <string name="recicle">recicle</string>
+    <string name="MiSpinner">MiSpinner</string>
+
+</resources>
